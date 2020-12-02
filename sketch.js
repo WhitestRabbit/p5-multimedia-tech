@@ -39,7 +39,7 @@ function setup() {
     rotateY(frameCount*0.01);
     rotateZ(frameCount*0.05);
     texture(img);
-    sphere(height/5);
+    box(height/5);
     noStroke();
   }
 
